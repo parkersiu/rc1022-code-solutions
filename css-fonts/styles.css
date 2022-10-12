@@ -1,0 +1,9 @@
+h1, h2 {
+  font-family: 'Archivo', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.5em;
+}
