@@ -23,6 +23,10 @@ body {
   flex-basis: calc(100% / 4);
 }
 
-.four {
-  max-width: 100%;
+.column-two-thirds {
+  flex-basis: calc(100% / 1.5);
+}
+
+img {
+  width: 100%;
 }
