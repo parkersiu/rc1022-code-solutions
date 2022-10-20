@@ -219,3 +219,19 @@ button:hover {
 .button-2-padding {
   padding: 8px 15px;
 }
+
+.inline {
+  display: inline;
+}
+
+.padding-imp-body {
+  padding: 10px 50px;
+}
+
+.column-sixth {
+  flex-basis: calc(100% / 6);
+}
+
+.padding-columns-imp {
+  padding-bottom: 50px;
+}
