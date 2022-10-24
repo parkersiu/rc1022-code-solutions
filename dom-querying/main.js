@@ -8,5 +8,7 @@ console.dir(explanation);
 var hint = document.querySelector('.hint');
 console.log('hint:', hint);
 console.dir(hint);
+var p = document.querySelectorAll('p');
+console.log('p:', p);
 var exampleLink = document.querySelectorAll('.example-link');
 console.log('exampleLink:', exampleLink);
