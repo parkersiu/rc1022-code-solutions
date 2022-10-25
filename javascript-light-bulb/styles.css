@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  height: 1000px;
+  width: 1000px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 1000px;
+  width: 1000px;
+  text-align: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.background-color-light {
+  background-color: #fff9f1;
+}
+
+.background-color-dark {
+  background-color: black;
+}
+
+.button-color-yellow {
+  background-color: #faf275;
+}
+
+.button-color-grey {
+  background-color: darkslategrey;
+}
+
+button {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 0;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 30%);
+}
+
+button:hover {
+  cursor: pointer;
+}
