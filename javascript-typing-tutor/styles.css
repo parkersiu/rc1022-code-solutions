@@ -1,0 +1,36 @@
+* {
+  font-family: monospace;
+}
+
+h1 {
+  white-space: pre;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  height: 500px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+.active {
+  border-bottom: 3px solid black;
+}
+
+.correct {
+  color: chartreuse;
+}
+
+.incorrect {
+  color: red;
+}
