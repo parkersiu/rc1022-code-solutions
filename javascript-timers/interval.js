@@ -9,3 +9,4 @@ function setText() {
   timer--;
 }
 setInterval(setText, 1000);
+clearInterval(3);
