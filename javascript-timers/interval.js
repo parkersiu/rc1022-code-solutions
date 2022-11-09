@@ -8,5 +8,7 @@ function setText() {
   } else h1.textContent = timer;
   timer--;
 }
+var timerId = setInterval(setText, 1000);
+
 setInterval(setText, 1000);
-clearInterval(3);
+clearInterval(timerId);
