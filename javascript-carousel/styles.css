@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  border: 4px solid;
+  width: 50%;
+  padding: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+  position: relative;
+}
+
+img {
+  padding: 0 10%;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.fa-less-than {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.fa-greater-than {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
