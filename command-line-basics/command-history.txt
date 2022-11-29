@@ -1,0 +1,333 @@
+    1  git switch main
+    2  git pull origin main
+    3  git branch html-skeleton
+    4  git branch --list
+    5  git switch html-skeleton
+    6  git status
+    7  git add html-skeleton
+    8  git status
+    9  git commit -m "Completed html-skeleton exercise."
+   10  git push origin html-skeleton
+   11  git switch main
+   12  git pull origin main
+   13  git branch html-syntax
+   14  git branch --list
+   15  git switch html-syntax
+   16  git status
+   17  git add html-syntax
+   18  git status
+   19  git commit -m "Completed html-syntax exercise."
+   20  git add html-syntax
+   21  git status
+   22  git commit -m "Completed html-syntax exercise."
+   23  git push origin html-syntax
+   24  git switch main
+   25  git pull origin main
+   26  git branch html-block-and-inline
+   27  git branch --list
+   28  git switch html-block-and-inline
+   29  git status
+   30  git add html-block-and-inline
+   31  git status
+   32  git commit -m "Completed html-block-and-inline exercise."
+   33  git push origin html-block-and-inline
+   34  git switch main
+   35  git pull origin main
+   36  git branch html-lists
+   37  git branch --list
+   38  git switch html-lists
+   39  git status
+   40  git add html-lists
+   41  git status
+   42  git commit -m "Completed html-lists exercise."
+   43  git push origin html-lists
+   44  git switch main
+   45  git pull origin main
+   46  git branch html-links
+   47  git branch --list
+   48  git switch html-links
+   49  git status
+   50  git add html-links
+   51  git status
+   52  git commit -m "Completed html-links exercise."
+   53  git push origin html-links
+   54  git switch main
+   55  git pull origin main
+   56  git branch html-relative-links
+   57  git branch --list
+   58  git switch html-relative-links
+   59  git status
+   60  git add html-relative-links
+   61  git status
+   62  git commit -m "Completed html-relative-links example."
+   63  git push origin html-relative-links
+   64  git switch main
+   65  git pull origin main
+   66  git branch html-forms
+   67  git branch --list
+   68  git switch html-forms
+   69  git status
+   70  git add html-forms
+   71  git status
+   72  git commit -m "Completed html-forms exercise."
+   73  git push origin html-forms
+   74  git add html-forms
+   75  git commit -m "Changes made."
+   76  git push origin html-forms
+   77  clear
+   78  git switch main
+   79  git pull origin main
+   80  git branch html-tables
+   81  git branch --list
+   82  git switch html-tables
+   83  git status
+   84  git add html-tables
+   85  git status
+   86  git commit -m "Completed html-tables exercise."
+   87  git push origin html-tables
+   88  git switch main
+   89  git pull origin main
+   90  git branch html-web-page
+   91  git branch --list
+   92  git switch html-web-page
+   93  git status
+   94  git add html-web-page
+   95  git status
+   96  git commit -m "Completed html-web-page challenge."
+   97  git push origin html-web-page
+   98  git switch main
+   99  git pull origin main
+  100  git branch css-syntax
+  101  git branch --list
+  102  git switch css-syntax
+  103  git status
+  104  git add css-syntax
+  105  git status
+  106  git commit -m "Completed css-syntax exercise."
+  107  git push origin css-syntax
+  108  git switch main
+  109  git pull origin main
+  110  git branch css-colors
+  111  git branch --list
+  112  git switch css-colors
+  113  git status
+  114  git add css-colors
+  115  git status
+  116  git commit -m "Completed css-colors exercise."
+  117  git push origin css-colors
+  118  git switch main
+  119  git pull origin main
+  120  git branch css-box-model
+  121  git branch --list
+  122  git switch css-box-model
+  123  git status
+  124  git add css-box-model
+  125  git status
+  126  git commit -m "Completed css-box-model exercise."
+  127  git push origin css-box-model
+  128  git switch main
+  129  git pull origin main
+  130  git branch css-pseudo-classes
+  131  git branch --list
+  132  git switch css-pseudo-classes
+  133  git status
+  134  git add css-pseudo-classes
+  135  git status
+  136  git commit -m "Completed css-pseudo-classes exercises."
+  137  git push origin css-pseudo-classes
+  138  git switch main
+  139  git pull origin main
+  140  git branch css-fonts
+  141  git branch --list
+  142  git switch css-fonts
+  143  git status
+  144  git add css-fonts
+  145  git status
+  146  git commit -m "Completed css-fonts exercise."
+  147  git push origin css-fonts
+  148  git switch main
+  149  git pull origin main
+  150  git branch css-brochure-form
+  151  git branch --list
+  152  git switch css-brochure-form
+  153  git status
+  154  git add css-brochure-form
+  155  git status
+  156  git commit -m "Completed css-brochure-form exercise."
+  157  git push origin css-brochure-form
+  158  git switch main
+  159  git pull origin main
+  160  git switch main
+  161  clear
+  162  git pull origin main
+  163  git branch css-flexbox
+  164  git branch --list
+  165  git switch css-flexbox
+  166  git status
+  167  git add css-flexbox
+  168  git status
+  169  git commit -m "Completed css-flexbox exercise."
+  170  git push origin css-flexbox
+  171  git switch main
+  172  git pull origin main
+  173  git branch css-layout-classes
+  174  git branch --list
+  175  git switch css-layout-classes
+  176  git status
+  177  git add css-layout-classes
+  178  git status
+  179  git commit -m "Completed css-layout-classes exercise."
+  180  git push origin css-layout-classes
+  181  git add css-layout-classes
+  182  git commit -m "Changes made per instructor comments."
+  183  git push origin css-layout-classes
+  184  git switch main
+  185  git pull origin main
+  186  git branch css-three-column-layout
+  187  git branch --list
+  188  git switch css-three-column-layout
+  189  git status
+  190  git add css-three-column-layout
+  191  git status
+  192  git commit -m "Completed css-three-column-layout challenge."
+  193  git push origin css-three-column-layout
+  194  git switch main
+  195  git pull origin main
+  196  git branch css-two-column-layout
+  197  git branch --list
+  198  git switch css-two-column-layout
+  199  git switch main
+  200  git pull origin main
+  201  git branch css-positioning
+  202  git branch --list
+  203  git switch css-positioning
+  204  git status
+  205  git add css-positioning
+  206  git status
+  207  git commit -m "Completed css-positioning exercise."
+  208  git push origin css-positioning
+  209  git add css-positioning
+  210  git commit -m "Moved Bulbasaur."
+  211  git push origin css-positioning
+  212  git switch main
+  213  git pull origin main
+  214  git switch css-two-column-layout
+  215  git status
+  216  git add css-two-column-layout
+  217  git status
+  218  git commit -m "Completed css-two-column-layout challenge."
+  219  git push origin css-two-column-layout
+  220  git switch main
+  221  git branch css-canvas-medical
+  222  git branch --list
+  223  git switch css-canvas-medical
+  224  git switch main
+  225  git pull origin main
+  226  git switch main
+  227  git pull origin main
+  228  git branch es6-const-let
+  229  git switch es6-const-let
+  230  git status
+  231  git add es6-const-let
+  232  git status
+  233  git commit -m "Completed es6-const-let example."
+  234  git push origin es6-const-let
+  235  git switch main
+  236  git pull origin main
+  237  git branch es6-template-literals
+  238  git switch es6-template-literals
+  239  git switch main
+  240  git switch es6-template-literals
+  241  git status
+  242  git add es6-template-literals
+  243  git status
+  244  git commit -m "Completed es6-template-literals exercise."
+  245  git push origin es6-template-literals
+  246  git switch main
+  247  git pull origin main
+  248  git branch es6-destructuring
+  249  git switch es6-destructuring
+  250  git status
+  251  git add es6-destructuring
+  252  git commit -m "Completed es6-destructuring exercise."
+  253  git push origin es6-destructuring
+  254  git switch main
+  255  git pull origin main
+  256  git branch es6-arrow-functions
+  257  git switch es6-arrow-functions
+  258  git status
+  259  git add es6-arrow-functions
+  260  git commit -m "Completed es6-arrow-functions exercise."
+  261  git push origin es6-arrow-functions
+  262  git switch main
+  263  git pull origin main
+  264  git branch command-line-basics
+  265  git switch command-line-basics
+  266  cd command-line-basics
+  267  man man
+  268  man man
+  269  man cat
+  270  cat laziness.txt
+  271  cat impatience.txt
+  272  cat hubris.txt
+  273  cat laziness.txt imptience.txt hubris.txt
+  274  cat laziness.txt impatience.txt hubris.txt
+  275  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  276  cat three-virtues.txt
+  277  man ls
+  278  ls
+  279  ls -a
+  280  ls -a -F
+  281  ls lfz-staff/
+  282  ls lfz-staff/ -a
+  283  ls lfz-staff/ -F
+  284  ls lfz-staff/ -F -a
+  285  ls -aF lfz-staff/ > lfz-staff/contents.txt
+  286  cat lfz-staff/contents.txt
+  287  man pwd
+  288  pwd
+  289  pwd > i-was-here.txt
+  290  ls
+  291  cat i-was-here.txt
+  292  clear
+  293  man echo
+  294  echo 'Hello, World!'
+  295  echo 'Hello, World!' > hello.txt
+  296  ls
+  297  cat hello.txt
+  298  clear
+  299  man touch
+  300  man touch
+  301  touch tag-youre-it.txt
+  302  ls
+  303  touch snoot/boop.txt
+  304  ls
+  305  ls snoot/
+  306  man mkdir
+  307  man mkdir
+  308  mkdir parent
+  309  ls parent/
+  310  ls a/
+  311  mkdir -p parent/child/grandchild
+  312  touch parent/child/grandchild/.gitkeep
+  313  ls -a parent/child/grandchild/
+  314  ls -a
+  315  ls -a parent
+  316  clear
+  317  man mv
+  318  clear
+  319  mv pokiemans pokemon
+  320  ls
+  321  man rm
+  322  rm lol.txt
+  323  ls
+  324  rm -r kill-me/
+  325  ls
+  326  clear
+  327  man cp
+  328  cp and-then.txt no-and-then.txt
+  329  ls
+  330  cat and-then.txt no-and-then.txt
+  331  man history
+  332  history
+  333  history > command-history.txt
