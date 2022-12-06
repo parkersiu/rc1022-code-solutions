@@ -38,7 +38,3 @@ app.listen(3000, () => {
   // eslint-disable-next-line no-console
   console.log('Listening on port 3000!');
 });
-
-// http -v get localhost:3000/api/grades
-// http -v post localhost:3000/api/grades name="Brendan Eich" course="JavaScript" score:=100
-// http -v post localhost:3000/api/grades name="Tim Davis" course="JavaScript" score:=53
