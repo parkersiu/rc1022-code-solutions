@@ -35,7 +35,7 @@ app.delete('/api/grades/:id', (req, res, id) => {
   for (const property in grades) {
     gradesArray.push(grades[property]);
   }
-  res.sendStatus(203);
+  res.sendStatus(204);
 });
 
 app.listen(3000, () => {
