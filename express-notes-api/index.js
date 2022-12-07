@@ -19,7 +19,7 @@ app.get('/api/notes', (req, res) => {
 app.get('/api/notes/:id', (req, res, id) => {
   let object = {};
   const idNumber = Number(req.params.id);
-  if (idNumber < 1 || isNaN(idNumber)) {
+  if (idNumber < 1 || !Number.isInteger(idNumber)) {
     object.error = 'id must be a positive integer';
     res.status(400).json(object);
   } else if (!notes[req.params.id]) {
@@ -58,7 +58,7 @@ app.delete('/api/notes/:id', (req, res, id) => {
   const idNumber = Number(req.params.id);
   const object = {};
   const error = {};
-  if (idNumber < 1 || isNaN(idNumber)) {
+  if (idNumber < 1 || !Number.isInteger(idNumber)) {
     object.error = 'id must be a positive integer';
     res.status(400).json(object);
   } else if (!notes[req.params.id]) {
@@ -82,7 +82,7 @@ app.put('/api/notes/:id', (req, res) => {
   const idNumber = Number(req.params.id);
   const object = {};
   const error = {};
-  if (idNumber < 1 || isNaN(idNumber)) {
+  if (idNumber < 1 || !Number.isInteger(idNumber)) {
     object.error = 'id must be a positive integer';
     res.status(400).json(object);
   } else if (!req.body.content) {
