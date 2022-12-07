@@ -33,9 +33,10 @@ app.get('/api/notes/:id', (req, res, id) => {
 
 app.post('/api/notes', (req, res) => {
   const object = {};
+  const error = {};
   if (!req.body.content) {
     object.error = 'content is a required field';
-    res.status(400);
+    res.status(400).json(object);
   } else {
     object.id = nextId;
     object.content = req.body.content;
@@ -43,19 +44,20 @@ app.post('/api/notes', (req, res) => {
     jsonData.nextId++;
     fs.writeFile('data.json', JSON.stringify(jsonData, null, 2), err => {
       if (err) {
-        object.error = 'An unexpected error occured.';
+        error.error = 'An unexpected error occured.';
         console.error(err);
-        res.status(500);
-        process.exit(1);
+        res.status(500).json(error);
+      } else {
+        res.status(201).json(object);
       }
     });
-    res.status(201).json(object);
   }
 });
 
 app.delete('/api/notes/:id', (req, res, id) => {
   const idNumber = Number(req.params.id);
   const object = {};
+  const error = {};
   if (idNumber < 1 || isNaN(idNumber)) {
     object.error = 'id must be a positive integer';
     res.status(400).json(object);
@@ -66,18 +68,20 @@ app.delete('/api/notes/:id', (req, res, id) => {
     delete jsonData.notes[req.params.id];
     fs.writeFile('data.json', JSON.stringify(jsonData, null, 2), err => {
       if (err) {
-        object.error = 'An unexpected error occured.';
+        error.error = 'An unexpected error occured.';
         console.error(err);
-        res.status(500);
-        process.exit(1);
+        res.status(500).json(error);
+      } else {
+        res.status(204).send();
       }
     });
-  } res.status(204).send();
+  }
 });
 
 app.put('/api/notes/:id', (req, res) => {
   const idNumber = Number(req.params.id);
   const object = {};
+  const error = {};
   if (idNumber < 1 || isNaN(idNumber)) {
     object.error = 'id must be a positive integer';
     res.status(400).json(object);
@@ -92,13 +96,13 @@ app.put('/api/notes/:id', (req, res) => {
     jsonData.notes[req.params.id].content = req.body.content;
     fs.writeFile('data.json', JSON.stringify(jsonData, null, 2), err => {
       if (err) {
-        object.error = 'An unexpected error occured.';
+        error.error = 'An unexpected error occured.';
         console.error(err);
-        res.status(500);
-        process.exit(1);
+        res.status(500).json(error);
+      } else {
+        res.status(200).json(object);
       }
     });
-    res.status(200).json(object);
   }
 });
 
