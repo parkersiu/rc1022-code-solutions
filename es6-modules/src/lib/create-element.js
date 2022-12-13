@@ -1,4 +1,4 @@
-import toArray from './to-array';
+import { toArray } from './to-array';
 
 export function createElement(tagName, attributes, children = []) {
   const parent = document.createElement(tagName);
