@@ -1,0 +1,10 @@
+button {
+  padding: 1rem 2rem;
+  box-shadow: 3px 3px black;
+  border: 4px solid black;
+  font-size: 18px;
+}
+
+button:hover {
+  cursor: pointer;
+}
