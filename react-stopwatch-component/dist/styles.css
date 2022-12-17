@@ -1,0 +1,33 @@
+#root {
+  margin: 0 auto;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  line-height: 500px;
+  border-radius: 50%;
+  border: 3px solid black;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+}
+
+i {
+  color: black;
+  position: relative;
+  left: 18%;
+  padding-top: 1rem;
+}
+
+#time {
+  color: black;
+  position: relative;
+  bottom: 30%;
+}
+
+i:hover {
+  cursor: pointer;
+}
